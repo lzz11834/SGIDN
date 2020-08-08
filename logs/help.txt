@@ -1,0 +1,1 @@
+This folder stores the information of tensorboardX which is used to visualize the process of training.

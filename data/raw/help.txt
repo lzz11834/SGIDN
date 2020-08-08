@@ -1,0 +1,2 @@
+This folder stores the images which are used to train or evaluate.
+The images will be processed into patches in 'generate_patches.py'.

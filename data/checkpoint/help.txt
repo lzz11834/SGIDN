@@ -1,0 +1,2 @@
+This folder stores the information of model during training which is used to restore the process of training.
+This folder already stores a model trained by us. 
