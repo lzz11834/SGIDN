@@ -1,5 +1,5 @@
  <h1 align="center"> Project-SGIDN </h1>
-This repository provides a Pytorch implementation of the *SGIDN* method presented in our
+This repository provides a tensorflow implementation of the *SGIDN* method presented in our
 RSE 2020 paper  ”SGIDN”.
 
 <p align="center">
