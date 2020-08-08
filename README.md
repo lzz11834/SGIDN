@@ -5,7 +5,7 @@ RSE 2020 paper  ”SGIDN”.
 <p align="center">
   <a href="https://github.com/TulioOParreiras/ProjectTemplate/issues">
     </a>
-    <img src="https://usemobile.com.br/wp-content/uploads/2019/10/Downloads-1.png" />
+    <img src="https://github.com/lzz11834/SGIDN/blob/master/imgs/Chapter.3-Fig.3.png" />
 	<br>
 	<br>
 </p
