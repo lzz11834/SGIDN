@@ -47,8 +47,8 @@ class denoiser(object):
         for num in range(clean_image.shape[0]):
             for band in range(clean_image.shape[3]):
                 stripe[num, :, :, band] = np.random.normal(loc=0, scale= 0.05, size=[1, clean_image.shape[2]])
-                noisy_image[num, :, :, band] = clean_image[num, :, :, band] + np.random.normal(loc=0, scale= 0.05, size=[clean_image.shape[1], clean_image.shape[2]])
-                noisy_image[num, :, :, band] = salt_and_pepper_noise(noisy_image[num, :, :, band], 0.1)
+                noisy_image[num, :, :, band] = clean_image[num, :, :, band] + np.random.normal(loc=0, scale=0, size=[clean_image.shape[1], clean_image.shape[2]])
+                noisy_image[num, :, :, band] = salt_and_pepper_noise(noisy_image[num, :, :, band], 0)
         noisy_image = noisy_image + np.tile(stripe, [1, clean_image.shape[1], 1, 1])
         c_x = np.zeros((noisy_image.shape[0], noisy_image.shape[1], noisy_image.shape[2], noisy_image.shape[3]), dtype="float32")
         c_y = np.zeros((noisy_image.shape[0], noisy_image.shape[1], noisy_image.shape[2], noisy_image.shape[3]), dtype="float32")
@@ -105,8 +105,8 @@ class denoiser(object):
                 for num in range (batch_images.shape[0]):
                     for band in range(batch_images.shape[3]):
                         s[num, band]= random.uniform(0, 0.1)
-                        g[num, band] = random.uniform(0, 0.1)
-                        p[num, band] = random.uniform(0, 0.2)
+                        g[num, band] = random.uniform(0, 0)
+                        p[num, band] = random.uniform(0, 0)
                         stripe[num, :, :, band] = np.random.normal(loc=0, scale=s[num, band], size=[1, batch_images.shape[2]])
                         batch_noisy[num, :, :, band] = batch_images[num, :, :, band] + np.random.normal(loc=0, scale=g[num,band],size=[batch_images.shape[1], batch_images.shape[2]])
                         batch_noisy[num, :, :, band] = salt_and_pepper_noise(batch_noisy[num, :, :, band],p[num, band])
