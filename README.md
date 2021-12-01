@@ -30,7 +30,7 @@ If you use our work, please also cite the paper:
  }
 ```
 
-If you would like to get in touch, please contact [liwenqing_rs@whu.edu.cn](mailto:luozhaozhi2016@whu.edu.cn).
+If you would like to get in touch, please contact [luozhaozhi2016@whu.edu.cn](mailto:luozhaozhi2016@whu.edu.cn).
 
 ## 📋 Requirements
 
