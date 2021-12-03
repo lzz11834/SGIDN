@@ -1,2 +1,2 @@
-model_checkpoint_path: "/mnt/disk3/lzz/SGIDN/checkpoint/SSDCNN-tensorflow-255000"
-all_model_checkpoint_paths: "/mnt/disk3/lzz/SGIDN/checkpoint/SSDCNN-tensorflow-255000"
+model_checkpoint_path: "SSDCNN-tensorflow-255000"
+all_model_checkpoint_paths: "SSDCNN-tensorflow-255000"
